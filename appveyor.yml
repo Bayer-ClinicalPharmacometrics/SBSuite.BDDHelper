@@ -1,7 +1,7 @@
-configuration: Release
+configuration: Release 
 
 environment:
-  app_version: '1.9.1'
+  app_version: '1.9.2'
 
 version: '%app_version%.{build}'
 
@@ -24,7 +24,8 @@ nuget:
 build:
   publish_nuget: true
   project: SBSuite.BDDHelper.sln 
-  
+  verbosity: minimal
+
 test: off #no test in helper dll
 
 deploy:
