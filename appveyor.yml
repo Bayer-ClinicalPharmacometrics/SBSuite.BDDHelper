@@ -1,7 +1,7 @@
 configuration: Release 
 
 environment:
-  app_version: '1.9.2'
+  app_version: '1.9.3'
 
 version: '%app_version%.{build}'
 
